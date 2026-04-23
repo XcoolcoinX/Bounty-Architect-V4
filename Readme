@@ -1,0 +1,17 @@
+🚀 Bounty Architect V4 (Jaht-Station)
+Elite Bug Bounty automatiseeritud luuresüsteem Google Cloud Shellile.
+🏗 Funktsioonid
+• Asünkroonne skaneerimine: Python asyncio baasil.
+• Tööriistade torutamine: Subfinder -> HTTPX -> Nuclei.
+• Reaalajas seire: Flask-põhine veebipaneel (Port 8080).
+• Turvalisus: Paroolikaitsega paneel (1122334455).
+• Telegrami teavitused: Kohesed hoiatused kriitiliste leidude puhul.
+• Iseparanduv: raha_masin.py jookseb tsüklis, et tagada pidev töö.
+🚀 Kiire käivitus Cloud Shellis
+📂 Failistruktuur
+• veeb.py: Seirepaneel ja sihtmärkide haldus.
+• raha_masin.py: Skanneri loogika (Subprocess pipes).
+• targets.txt: Sihtmärkide nimekiri.
+• results/: Skaneerimise toorfailid.
+⚖️ Litsents
+MIT License - Kasuta vastutustundlikult.
